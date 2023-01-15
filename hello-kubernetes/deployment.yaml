@@ -22,3 +22,10 @@ spec:
           env:
             - name: MESSAGE
               value: Hello from the other side!
+          volumeMounts:
+            - mountPath: /work
+              name: shared-volume
+      volumes:
+        - name: shared-volume
+          persistentVolumeClaim:
+            claimName: my-first-claim
