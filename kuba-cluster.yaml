@@ -16,5 +16,6 @@ contexts:
     context:
       user: "kuba-cluster"
       cluster: "kuba-cluster"
+      namespace: "janik-ns"
 
 current-context: "kuba-cluster"
