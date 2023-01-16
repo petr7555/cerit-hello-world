@@ -28,4 +28,4 @@ spec:
       volumes:
         - name: shared-volume
           persistentVolumeClaim:
-            claimName: my-first-claim
+            claimName: hello-kubernetes-pvc
